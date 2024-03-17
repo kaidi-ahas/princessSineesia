@@ -1,8 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9eaf3;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Ensure full height of viewport */
+  margin: 0; /* Remove default margin */
+}
+.container {
+  text-align: center; /* Center the contents horizontally */
 }
 
 header {
@@ -55,4 +59,13 @@ textarea {
 
 .days li {
   margin-bottom: 5px; /* Adjust spacing between list items */
+}
+
+a {
+  font-weight: bold;
+  color: black; /* Set link color to black */
+  text-decoration: underline; /* Remove underline */
+}
+a:visited {
+  color: black; /* Set visited link color to black */
 }
