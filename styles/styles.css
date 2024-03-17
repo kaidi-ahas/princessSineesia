@@ -47,3 +47,12 @@ textarea {
   border-left: 4px solid #87ceeb;
   padding-left: 10px;
 }
+
+.days {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+}
+
+.days li {
+  margin-bottom: 5px; /* Adjust spacing between list items */
+}
