@@ -6,13 +6,13 @@ body {
 }
 
 header {
-  background-color: #ffc0cb;
   color: #4a4a4a;
   padding: 10px 20px;
 }
 
 .logo img {
   max-width: 300px;
+  border-radius: 50%;
 }
 
 main {
