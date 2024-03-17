@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Life Coaching</title>
+  <title>Pricess Sineesia</title>
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
@@ -14,10 +14,22 @@
   </header>
   <main>
     <section class="todo-list">
-      <h2>To-Do List</h2>
-      <div class="todo-item">
-        <input type="checkbox" id="todo1">
-        <label for="todo1">Task 1</label>
+      <<p>Todo List</p>
+  
+      <input 
+        class="js-name-input"
+        placeholder="Todo name"
+        onkeydown="calculateWithEnterKey(event);"
+      >
+    
+      <input type="date" title="Todo Date">
+      
+      <button 
+        onclick="addToTodoList();"
+      >
+      Add</button>
+    
+      <div class="js-todo-list"></div>
         <textarea placeholder="Description of Task 1"></textarea>
       </div>
     </section>
